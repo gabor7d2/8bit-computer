@@ -1,0 +1,28 @@
+https://www.c64-wiki.com/wiki/Addressing_mode
+
+implied: no addressing (1 byte)
+
+immediate: hard-coded 1-byte number (2 bytes)
+
+absolute: normal 2-byte addressing (3 bytes)
+indexed-absolute: normal 2-byte addressing + address shifted by a register's contents 0-255 bytes (3 bytes)
+
+zeropage: high-byte is 0x00, only low-byte is specified (2 bytes)
+indexed-zeropage: high-byte is 0x00, address is the specified low-byte + shifted by a register (2 bytes)
+
+relative: signed 1-byte address which states the offset from the current PC address between -126 and 129, used by branch instructions (2 bytes)
+
+absolute-indirect: the actual address is fetched from the specified location, used by jump (3 bytes)
+indirect-indexed: the address is fetched from the specified zeropage location (+the next), and a register's value is added to it (2 bytes)
+
+
+
+
+IMPLIED
+IMMEDIATE
+RELATIVE
+
+ABSOLUTE/ZEROPAGE
+DIRECT/INDIRECT
+INDEXED/DIRECT
+

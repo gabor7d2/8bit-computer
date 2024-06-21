@@ -1,0 +1,255 @@
+
+2019.02.25.
+Learning - Started watching Ben Eater's series on YouTube called "Building an 8-bit breadboard computer"
+
+2019.03.05.
+Learning - Finished watching Ben Eater's YT playlist
+
+2019.03.21.
+Learning - Started watching James Bates' playlist on YouTube called "My Ben Eater inspired homemade 8-bit CPU"
+
+2019.03.22.
+Learning - Found out about the 8bbbc project called "ANDOR", developed by a Hungarian guy (Bálint Kiss)
+Planning - Started drawing the schematics (in EasyEDA)
+Planning - Clock module schematic finished
+
+2019.03.25.
+Planning - General-purpose register module schematic finished
+
+2019.03.26.
+Planning - RAM (Random Access Memory) & MAR (Memory Address Register) modules schematic finished
+
+2019.03.27.
+Planning - PC (Program Counter) module schematic finished
+Planning - Started ALU (Arithmetic Logic Unit) module schematic
+
+2019.04.18.
+Planning - Actually started work on ALU schematic - made the chip schematics
+
+2019.08.05.
+Planning - What components to buy -> creating 8-bit computer parts list spreadsheet
+
+2019.08.06.
+Component sourcing (big) - Lomex - most ICs, tactile buttons, switches, 2 potentiometers, resistors, caps, 10 LEDs (3mm), DIP switches, 1 breadboard - [19.000 Ft]
+Tool sourcing - dad gave me some tools - mini pliers and a nice knife - and I borrowed a multimeter
+Experimenting - cut a connector from an ATX PSU, and used the red and black wires as +5v and GND to power the breadboard
+Experimenting - Built an astable 555 timer, the speed of it can be controlled via the 1M ohm potentiometer
+
+2019.08.22.
+Component sourcing - HQ Elektronika - Ordered & picked up 5 common cathode 7seg displays, and the RAM chip (AS6C6264) - [2.575 Ft]
+Component sourcing - Lomex - Ordered & picked up 5 pcs of 840-point breadboard - [4.032 Ft]
+Component sourcing - Kontel - Ordered some missing chips (74HCT08, 74HCT377, 74HC595) and a total of 545 capacitors (27 values)
+Component sourcing (big) - Amazon.de - Ordered 500pcs LED kit, GLCD, 5 Arduino nanos, 1120pcs resistor kit, tons of jumper wires + dupont wires and a sensor kit for arduinos - [33.400 Ft]
+Component sourcing - Ebay - Ordered missing chips (74LS382 ALU function generator x2, and 5 pcs of the 76489 sound generator + LM386 amp) - [3.537 Ft]
+Experimenting - Experimented with the 7seg displays, put together a circuit where you can control the state of each segment with an 8pin DIP switch
+
+2019.08.29.
+Component sourcing - Amazon.de - package 1/2 (ordered on 08.22) arrived at HQ
+Component sourcing - Ebay - package 1/3 (2x 74LS382) arrived at HQ
+Component sourcing - Kontel - picked up the order placed on 08.22. - [4.102 Ft]
+
+2019.09.02.
+Experimenting - Made a 4-bit counter with a 74 HCT 161 at school
+
+2019.09.04.
+Experimenting - Expanded the 4-bit counter to 8 bits at school (finished on music class)
+
+2019.09.05.
+Tool sourcing - Bought a terminal crimping tool (wanted a wire stripper/blanking instead lol) [2.715 Ft]
+
+2019.09.06.
+Component sourcing - Amazon.de - package 2/2 (ordered on 08.22) picked up at Budafok 1. posta (Városház tér) - box was damaged but nothing was missing
+
+2019.09.07.
+Organising - Unpacked the 1120pcs resistor kit, laid each value on bed & then packed it back after ordering the values
+Experimenting - Experimented with the 500pcs LED kit, tried out every color (red, yellow with 220R resistor, G, B, W with 180R) + also burnt an LED xd
+
+2019.09.08.
+Experimenting - Put together an "8-bit" register using a 74HCT377 with DIP switches as inputs
+
+2019.09.11.
+Experimenting - Put together a 4-bit ALU using the previously made 8-bit register as A and B inputs (finished on music class)
+
+2019.09.13.
+Experimenting - Tried out an EEPROM (AT28C64) at school on double empty lessons
+
+2019.09.14.
+Tool sourcing - Found some "precision" pliers, bought a Lux Tools automatic wire stripper and soldering iron (30W) [4.000 Ft]
+Building - Soldered male pin headers to an Arduino Nano
+
+2019.09.15.
+Building - Soldered another Arduino Nano
+Experimenting - Experimented with IR receiver and transmitter sensors - tried cloning TV remote's buttons, didn't get it to work
+
+2019.09.20.
+Component sourcing - Ebay - package 2/3 (5x SN76489 sound generator IC) arrived at HQ
+
+2019.09.21.
+Component sourcing - The Pi Hut - Ordered solid-core tinned AWG 22 wiring (10m black, red, yellow, orange, white, 20m blue, green) [7.144 Ft]
+
+2019.09.??.
+Component sourcing - Ebay - package 3/3 (10x LM386 sound amplifier IC) arrived at HQ
+
+2019.10.03.
+Experimenting - Put together an alpha version of an Arduino controlled SN76489
+
+2019.10.04.
+Experimenting - Ármin translated notes for "Boci boci tarka", we played it on the 76489
+
+2019.10.06.
+Experimenting - Put together 2 Arduino nano controlled SN76489 sets on breadboards, one for Ármin, also, he translated "A part alatt" for it and we played it
+
+2019.10.07.
+Component sourcing - The Pi Hut - Picked up the wiring (ordered on 09.21) at Budafok 1. posta (Városház tér)
+Component sourcing - Conrad - Ordered wire stripper (Ecotronic T3893 AWG 20-30)
+
+2019.10.08-09.
+Experimenting - Played more with the music boards (SN76489)
+
+2019.10.10.
+Component sourcing - Conrad - Picked up the wire stripper (ordered on 10.07) [6.000 Ft]
+
+2019.10.21.
+Building - Started building prototype for 2 registers (at school)
+
+2019.10.22.
+Building - Finished building prototype for 2 registers (at school)
+
+2019.10.23.
+Building - Tried out the prototype of 2 registers
+
+2019.10.25.
+Building - Built a really really nice looking 8-bit bus from breadboard power rails + practiced stripping short wires
+Planning - Made a Breadboard schematic spreadsheet & synced build log with photos + parts list sheet
+
+2019.10.26.
+Building - Built and tested C & D registers
+
+2019.10.28.
+PROJECT MEETUP #1 (ÁGV)
+Component sourcing - Lomex - Ordered & bought 10 breadboards & some pin headers [8.900 Ft]
+Building - Started building PC module w/ Ármin & Vencel, Wire stripping practice
+
+2019.10.29.
+PROJECT MEETUP #2 (ÁGV)
+Building - Worked a bit on PC
+Experimenting - Ármin explained / presented how his music note writer program works (for SN76489)
+
+2019.10.30.
+Component sourcing - Conrad - Ordered a 4MHz quartz oscillator to be used later with the SN76489
+
+2019.11.01.
+PROJECT MEETUP #3 (GV)
+Organising - Printed out datasheets for most of the ICs (messed up about 14 pages)
+Building - Worked a bit on PC, Finished & tested PC (at night)
+Planning - Discussed some ideas on RAM & ROM designs, addressing, microcode structure and how the computer will be programmed
+Recreational activities - Measured Vencel's laptop's power usage (6W idle, 26W full CPU load)
+
+2019.11.09.
+Planning - Made a modified clock module schematic to eliminate the 74HCT32 chip, and only use a 00 and a 04
+Planning - Corrected clock module to resemble physical connections
+Building - Built Clock module (automatic & manual with HLT control signal)
+
+2019.11.15.
+Component sourcing - Conrad - Picked up 4MHz quartz oscillator [495 Ft]
+
+2020.01.01.
+Building - Started building 2 general-purpose registers
+
+2020.01.02.
+Building - Finished building 2 general-purpose registers
+Building - Started building ALU prototype
+
+2020.01.03.
+Building - Finished building & testing ALU prototype
+Building - Started building ALU module
+
+2020.01.05.
+Building - Finished building ALU module
+
+2020.01.28.
+Planning - Memory module schematic started
+
+2020.02.09.
+Building - Built & tested Memory prototype with 8-bit addressing width (not enough jumper wires to do 15-bit)
+
+2020.02.12.
+Component sourcing - Ebay - Ordered 2 x AT28C256 EEPROMs [5.470 Ft]
+
+2020.02.16.
+Building - Started building Memory
+
+2020.02.20.
+Planning - Memory plan + schematics complete
+Building - Started rebuilding Memory
+
+2020.02.24.
+Building - Finished building Memory
+
+2020.02.29.
+Planning - Cleaned up schematics
+
+2020.03.04.
+Building - Started expanding PC to 16-bits
+
+2020.03.05.
+Building - Finished expanding PC to 16-bits
+Building - Made Stack Pointer from a general purpose register (replaced red LEDs with yellow)
+Planning - Schematics cleanup
+Planning - Redrawn register schematics to resemble physical layout
+Planning - Corrected some resistor values in schematics
+
+2020.03.16.
+Building - Started building Control Unit
+
+2020.05.11.
+Building - Continued building Control Unit
+
+2020.05.14.
+Building - Finished building Control Unit
+Planning - Drawn new Flags Register schematic which supports outputting to bus and reading from it
+
+2020.05.15.
+Building - Built redesigned Flags Register
+
+2020.05.17.
+Experimenting - Tested 128x64 GLCD with arduino
+
+2020.05.18.
+Coding - Started writing EEPROM programmer for arduino (in C)
+
+2020.05.19.
+Coding - Finished writing EEPROM Programmer
+Coding - Started writing Serial Transfer (to be able to program big amounts of data) in kotlin
+
+2020.05.20.
+Coding - Fisinhed writing Serial Transfer
+
+2020.05.21.
+Building - Built Basic input module (4 push-buttons)
+Building - Built Sound & Display module
+
+2020.05.22.
+Building - Hooked up & cleaned up power wiring
+
+2020.05.23.
+Building - Hooked up the bus to all modules (64 wires)
+
+2020.05.24.
+Planning - Cleaned up schematics
+Planning - Drawn Control Unit schematic
+Planning - Drawn module-view schematic
+Building - Hooked up clock wiring
+Building - Hooked up control signals with temp jumpers
+Coding - Started writing Microcode generator
+
+2020.05.25.
+Coding - Finished writing Microcode generator
+Building - Hooked up the 2 sides of the Control Unit to each other
+Building - Soldered the pins of a female pin header row together and hooked up Bus LEDs
+
+2020.05.26.
+Coding - Programmed the 5 microcode EEPROMs with the generated test-microcode (all instructions are no-operation, they just transfer PC to MAR and Memory to IR & increment PC, reset Microcode Timer)
+Debugging - Fixed Microcode generator generating the bits of each EEPROM backwards
+Debugging - Started fixing power supply issues (voltage dropping a lot over large distances)
+Documenting - Started working on word document (written half of the modules)
